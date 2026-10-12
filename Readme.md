@@ -12,14 +12,12 @@ Complete Python notes, organized for revision and practice.
 6. [Conditional Expressions](#6-conditional-expressions)
 7. [Loops](#7-loops)
 8. [Functions and Recursion](#8-functions-and-recursion)
-9. [Project 1: Snake Water Gun](#project-1-snake-water-gun)
-10. [File I/O](#9-file-io)
-11. [Object Oriented Programming](#10-object-oriented-programming)
-12. [Inheritance and More OOP](#11-inheritance-and-more-oop)
-13. [Project 2: The Perfect Guess](#project-2-the-perfect-guess)
-14. [Advanced Python 1](#12-advanced-python-1)
-15. [Advanced Python 2](#13-advanced-python-2)
-16. [Quick Revision Sheet](#quick-revision-sheet)
+9. [File I/O](#9-file-io)
+10. [Object Oriented Programming](#10-object-oriented-programming)
+11. [Inheritance and More OOP](#11-inheritance-and-more-oop)
+12. [Advanced Python 1](#12-advanced-python-1)
+13. [Advanced Python 2](#13-advanced-python-2)
+14. [Quick Revision Sheet](#quick-revision-sheet)
 
 ## 1. Getting Started
 
@@ -819,23 +817,6 @@ Be careful with recursion. Every recursive function needs a stopping condition, 
 - Remove a word from a list and strip spaces at the same time.
 - Print the multiplication table of a number using a function.
 
-## Project 1: Snake Water Gun
-
-Build a Snake Water Gun game where the user plays against the computer.
-
-Suggested approach:
-
-- Ask the user to choose snake, water, or gun.
-- Let the computer choose randomly.
-- Compare both choices.
-- Print whether the user won, lost, or drew.
-
-Basic rule idea:
-
-- Snake drinks water.
-- Water damages gun.
-- Gun kills snake.
-
 ## 9. File I/O
 
 ### Why Files Are Needed
@@ -1200,24 +1181,6 @@ __len__()  # controls len(obj)
 ```
 
 - Override `__len__()` to display vector dimension.
-
-## Project 2: The Perfect Guess
-
-Create a number guessing game.
-
-Workflow:
-
-- Generate a random number.
-- Ask the user to guess it.
-- If the guess is too high, print `Lower number please`.
-- If the guess is too low, print `Higher number please`.
-- When the guess is correct, print the number of guesses used.
-
-Hint:
-
-```python
-import random
-```
 
 ## 12. Advanced Python 1
 
